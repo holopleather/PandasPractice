@@ -1,10 +1,10 @@
 import pandas as pd
 
-#Example 1
+# Example 1
 orders = pd.read_table('http://bit.ly/chiporders')
-#print(orders.head())
+print(orders.head())
 
-#Output:
+# Output:
 
  # order_id  quantity                              item_name  \
 # 0         1         1           Chips and Fresh Tomato Salsa
